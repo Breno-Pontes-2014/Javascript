@@ -1,2 +1,2 @@
 # Javascript
- Repositório de Javascript
+Curso e repositório de Javascript
