@@ -1,0 +1,5 @@
+window.alert('Eba! Estou fazendo Javascript!')
+var gosta_ou_não_gosta = window.prompt('Você gosta de Javascript?')
+var nome = window.prompt('Qual é seu nome?')
+window.alert('É um prazer te conhecer '+ nome + '!')
+window.alert('Você ' + gosta_ou_não_gosta + ' de Javascript!')
