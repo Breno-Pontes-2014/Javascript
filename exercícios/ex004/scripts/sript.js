@@ -1,5 +1,5 @@
-var n1 = Number.parseInt(window.prompt('Digite um número: '))
-var n2 = Number.parseInt(window.prompt('Digite um número: '))
+var n1 = Number.parseFloat(window.prompt('Digite um número: '))
+var n2 = Number.parseFloat(window.prompt('Digite um número: '))
 var somar = n1 + n2
 var subtrair = n1 - n2
 var multiplicar = n1 * n2
