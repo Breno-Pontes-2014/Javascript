@@ -1,6 +1,3 @@
-a.addEventListener('click', clicar)
-a.addEventListener('mouseenter',entrar)
-a.addEventListener('mouseout', sair)
 var a = window.document.getElementById('area')
 function clicar() {
     a.innerText = 'Você clicou!'
