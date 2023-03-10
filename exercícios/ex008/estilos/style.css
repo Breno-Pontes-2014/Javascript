@@ -1,10 +1,11 @@
 @charset "UTF-8";
-div#area{
-    background-color: rgb(37, 117, 37);
-    color: white;
-    width: 200px;
-    height: 200px;
-    line-height: 200px;
-    font: normal 20pt Arial;
-    text-align: center;
+body{
+    font: normal 18pt Arial;
+}
+input{
+    font: normal 18pt Arial;
+    width: 100px;
+}
+div#res{
+    margin-top: 20px;
 }
