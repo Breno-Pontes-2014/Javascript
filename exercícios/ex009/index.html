@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fiscalização de velocidade</title>
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <h1>Sistema de fiscalização de velocidade</h1>
+    Velocidade do carro: <input type="number" name="velocidade" id="velocidade"> Km/h
+    <input type="button" value="Verificar" onclick="calcular()">
+    <div id="resultado">
+
+    </div>
+    <script>
+        function calcular(){
+            var velocidade_t = window.document.querySelector('input#velocidade')
+            var resultado = window.document.getElementById('div#resultado')
+            var velocidade = Number(velocidade_t.value)
+            resultado.innerHTML = `Sua velocidade atual é de <strong>${velocidade}KM/</strong>`
+            if(velocidade > 60){
+                res.innerHTML += `<p> Você está <strong>multado</strong> por ultrapassar o limite de velocidade.`
+            }
+            resultado.innerHTML = `<pDiraja com o cinto de segurança>`
+        }
+    </script>
+</body>
+</html>
