@@ -7,14 +7,11 @@ function carregar() {
     msg.style.color = 'black'
     if (hora == 0 && hora < 12) {
         img.src = 'imagens/imagem de manhã.jpg'
-        document.body.style.color = '#e2cd9f'
     }
     else if(hora <=  12 && hora <= 18){
         img.src = 'imagens/imagem de noite.jpg'
-        document.body.style.color = '#b9846f'
     }
     else {
         img.src = 'imagens/imagem de noite.jpg'
-        document.body.style.color = '#515154'
     }
 }
