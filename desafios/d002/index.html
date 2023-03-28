@@ -1,5 +1,5 @@
  <!DOCTYPE html>
- <html lang="ptbr">
+ <html lang="pt-br">
  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,21 +11,35 @@
  <body>
     <header>
         <h1>
-            
+            Verificador de idade
         </h1>
     </header>
     <main>
         <section>
-            <div>
-
+            <div>               
+                    <p>
+                        Ano de nascimento:
+                        <input type="number" name="txtano" id="txtano" min="0">
+                    </p>
+                    <p>
+                        Sexo:
+                        <input type="radio" name="radsex" id="mas" checked>
+                        <label for="mas">Masculino</label>
+                        <input type="radio" name="radsex" id="fem">
+                        <label for="fem">Feminino</label>
+                    </p>
+                    <p>
+                        <input type="submit" value="Enviar" onclick="verificar()">
+                        <input type="reset" value="Limpar">
+                    </p>
             </div>
-            <div>
-
+            <div id="res">
+                <p>Preencha os dados acima para ver o resultado.</p>
             </div>
         </section>
     </main>
     <footer>
-
+        <p>Site criado por <a href="https://github.com/Breno-Pontes-2014">Breno</a></p>
     </footer>
  </body>
  </html>
