@@ -37,7 +37,7 @@ function verificar() {
                 img.style.height = "500px"
             } else {
                 // Idoso
-                img.setAttribute('src', 'imagem/imagem de idoso.jpg');
+                img.setAttribute('src', 'imagens/imagem de idoso.jpg');
                 img.style.width = "500px"
                 img.style.height = "500px"
             }
