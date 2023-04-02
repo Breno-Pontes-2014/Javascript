@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="estilos/style.css">
+   <script src="scripts/script.js"></script>
+   <title>Contador</title>
+</head>
+<body>
+   <header>
+       <h1>
+           Vamos contar! 
+       </h1>
+   </header>
+   <main>
+       <section>
+           <div id="dados">               
+                <p>
+                    Início: 
+                    <input type="number" name="Início" id="txtinício">
+                </p>
+                <p>
+                    Passo: 
+                    <input type="number" name="Passo" id="txtpasso">
+                </p>
+                <p>
+                    Fim: 
+                    <input type="number" name="Fim" id="txtfim">
+                </p>
+                <p>
+                    <input type="button" value="Contar" onclick="contar()">
+                    <input type="reset" value="Limpar">
+                </p>
+           </div>
+           <div id="res">
+               <p>Preparando contagem...</p>
+           </div>
+       </section>
+   </main>
+   <footer>
+       <p>Site criado por <a href="https://github.com/Breno-Pontes-2014">Breno</a></p>
+   </footer>
+</body>
+</html>
