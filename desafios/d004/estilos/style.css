@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(70,142,236);
+    font: normal 15pt Arial;
+    color: white;
+}
+header > h1{
+    text-align: center;
+}
+section{
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+    color: black;
+}
+footer > p > a{
+    padding: 5px;
+    text-align: none;
+    transition: 1s;
+}
+footer > p > a:hover{
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+}
+footer > p > a:active{
+    color: white;
+    background-color: black;
+}
