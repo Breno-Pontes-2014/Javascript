@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analisador de Números</title>
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Analisador de Números</h1>
+        <p>Digite um número entre 1 e 100 e clique em adicionar.</p>
+        <div class="form">
+            <input type="number" name="fnum" id="fnum" min="1" max="100">
+            <input type="button" value="Adicionar" onclick="adicionar()">
+        </div>
+        <br>
+        <div class="form">
+            <select name="flista" id="flista" size="10"></select>
+            <div class="resultados" id="res"></div>
+            <input type="button" value="Finalizar" onclick="finalizar()" id="botão">
+        </div>
+    </div>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
